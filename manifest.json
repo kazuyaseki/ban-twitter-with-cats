@@ -18,5 +18,8 @@
     },
     "default_title":"toggle status",
     "default_popup":"index.html"
-  }
+  },
+  "web_accessible_resources": [
+    "cat_images/*.jpeg"
+  ]
 }
