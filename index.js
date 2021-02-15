@@ -14,8 +14,8 @@ window.onload = function() {
 
     if(enabled) {
       body[0].innerHTML = `
-      <div style="width: 100vw; height: 100vh; display: flex; justify-content:center; align-items: center">
-        <img src="${path}" alt="cat" />
+      <div style="width: 100%; height: 100%; display: flex; justify-content:center; align-items: center; background-color: #ffedb3;">
+        <img src="${path}" alt="cat" style="max-width: 80%; max-height: 80%; border-radius: 16px;"/>
       </div>`;
     }
   });
