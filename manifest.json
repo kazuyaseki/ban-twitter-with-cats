@@ -15,10 +15,9 @@
   "browser_action":{
     "default_icon": {
       "16": "cat_enabled.png"
-    },
-    "default_title":"toggle status",
-    "default_popup":"browserAction.html"
+    }
   },
+  "background": { "scripts": ["browserAction.js"] },
   "web_accessible_resources": [
     "cat_images/*.jpeg"
   ]
