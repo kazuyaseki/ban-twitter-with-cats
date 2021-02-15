@@ -1,8 +1,8 @@
 {
-  "name": "Replace Twitter with Cats",
+  "name": "Ban Twitter with Cats",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "Replace Twitter with Cats",
+  "description": "Ban Twitter with Cats",
   "permissions": [
     "storage"
   ],
@@ -17,7 +17,7 @@
       "16": "cat_enabled.png"
     },
     "default_title":"toggle status",
-    "default_popup":"index.html"
+    "default_popup":"browserAction.html"
   },
   "web_accessible_resources": [
     "cat_images/*.jpeg"
